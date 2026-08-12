@@ -36,8 +36,10 @@
       "extra-label": "automata 🤖,autorelease: pending,chore 🧹",
       "include-component-in-tag": true,
       "include-v-in-tag": true,
+      "initial-version": "0.1.0",
       "prerelease": false,
       "pull-request-header": "🤖 I have created a release",
+      "pull-request-title-pattern": "chore: Release${component} v${version}",
       "release-type": "simple",
       "version-file": "VERSION"
     }
