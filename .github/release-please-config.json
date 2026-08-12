@@ -1,0 +1,45 @@
+{
+  "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json",
+  "packages": {
+    "plugins/tentacles": {
+      "changelog-sections": [
+        {
+          "hidden": false,
+          "section": "🎉 New features",
+          "type": "feat"
+        },
+        {
+          "hidden": false,
+          "section": "🐛 Bug fixes",
+          "type": "fix"
+        },
+        {
+          "hidden": false,
+          "section": "🧹 Miscellaneous",
+          "type": "chore"
+        }
+      ],
+      "component": "tentacles",
+      "draft": false,
+      "extra-files": [
+        {
+          "jsonpath": "$.version",
+          "path": "plugin.json",
+          "type": "json"
+        },
+        {
+          "jsonpath": "$.plugins[?(@.name=='tentacles')].version",
+          "path": "/.github/plugin/marketplace.json",
+          "type": "json"
+        }
+      ],
+      "extra-label": "automata 🤖,autorelease: pending,chore 🧹",
+      "include-component-in-tag": true,
+      "include-v-in-tag": true,
+      "prerelease": false,
+      "pull-request-header": "🤖 I have created a release",
+      "release-type": "simple",
+      "version-file": "VERSION"
+    }
+  }
+}
