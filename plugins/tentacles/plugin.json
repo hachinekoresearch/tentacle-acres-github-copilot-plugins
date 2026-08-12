@@ -1,0 +1,7 @@
+{
+  "name": "tentacles",
+  "description": "An example Copilot plugin.",
+  "agents": ["./agents/"],
+  "skills": ["./skills/"],
+  "version": "0.0.0"
+}

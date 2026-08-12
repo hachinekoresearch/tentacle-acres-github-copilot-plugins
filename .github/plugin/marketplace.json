@@ -1,0 +1,14 @@
+{
+  "name": "tentacle-acres-copilot-plugins",
+  "metadata": {
+    "description": "Example GitHub Copilot plugins for the imaginary Tentacle Acres organisation.",
+    "version": "0.0.0"
+  },
+  "plugins": [
+    {
+      "name": "security",
+      "source": "./plugins/tentacles",
+      "version": "0.0.0"
+    }
+  ]
+}
